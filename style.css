@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+.areaKeyBoard {
+    width:100vw;
+    height: 351px;
+    background-color: brown;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.keysBoard {
+    width: 90vw;
+    height: 280px;
+    transform: rotateX(30deg);
+}
+
+
+.button {
+    min-width: 59px;
+    height: 59px;
+    background-color: white;
+    opacity: 0.6;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    font-size: 35px;
+    border-radius: 25%;
+    outline: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+.button:active {
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+.active {
+    opacity: 1;
+    margin-top: 0;
+}
+
+
+.capsLock {
+    background-color: white;
+}
+
+
+.textarea {
+    width: 100%;
+    height: calc(100vh - 350px);
+    background-color:rgba(165 , 42 , 42 ,0.8);
+    padding: 50px 100px;
+    font-size: 40px;
+    outline: none;
+    border-color: rgba(165 , 42 , 42 ,0.8);
+    border-bottom: 2px;   
+}
+
+.inform{
+    position: fixed;
+    z-index: 5;
+    top: 710px;
+    left: 10px;
+}
