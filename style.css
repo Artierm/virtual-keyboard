@@ -84,7 +84,7 @@
 .inform{
     position: fixed;
     z-index: 5;
-    padding-top: 300px;
+    bottom: 10px;
     left: 10px;
 }
 
